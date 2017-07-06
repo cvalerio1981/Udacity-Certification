@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.claro.clarobussines.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/claro_codetel" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/page_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:text="Claro Codetel"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/pin_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/page_subtitle"
+            android:layout_below="@+id/page_subtitle"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_location_on_black_24px" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/pin_location"
+            android:layout_centerHorizontal="true"
+            android:text="Av. John F. Kennedy # 37" />
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/address"
+            android:layout_alignStart="@+id/address"
+            android:layout_alignTop="@+id/icn_description"
+            android:text="Claro, oficinas corporativas, Desarrollo de Aplicaciones Móviles y planes de datos en la nube" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/icn_phone"
+            android:layout_alignLeft="@+id/txt_desc"
+            android:layout_alignStart="@+id/txt_desc"
+            android:text="1-809-220-5127" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/icn_mail"
+            android:layout_alignLeft="@+id/txt_phone"
+            android:layout_alignStart="@+id/txt_phone"
+            android:text="carlos_abreu@claro.com.do" />
+
+        <ImageView
+            android:id="@+id/icn_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pin_location"
+            android:layout_alignStart="@+id/pin_location"
+            android:layout_below="@+id/pin_location"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_description_black_24px" />
+
+        <ImageView
+            android:id="@+id/icn_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/icn_description"
+            android:layout_alignStart="@+id/icn_description"
+            android:layout_below="@+id/txt_desc"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_phone_black_24px" />
+
+        <ImageView
+            android:id="@+id/icn_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_email_black_24px"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/icn_phone"
+            android:layout_alignLeft="@+id/icn_phone"
+            android:layout_alignStart="@+id/icn_phone" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
