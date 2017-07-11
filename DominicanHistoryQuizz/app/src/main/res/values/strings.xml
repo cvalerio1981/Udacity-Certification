@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dominican History Quizz</string>
+    <string name="question1"> 1.- en que año se proclamó la constitucion Dominicana? </string>
+    <string name="question2"> 2.- Quien escribio la letra del himno nacional Dominicano? </string>
+    <string name="question3"> 3.- Quien compuso la música del himno nacional Dominicano? </string>
+    <string name="question4"> 4.- Quien Confeccionó la bandera Dominicana? </string>
+    <string name="question5"> 5.- Quien Confeccionó el Escudo Dominicano? </string>
+    <string name="question6"> 6.- cuales son los colores de la Bandera Dominicana? </string>
+    <string name="question7"> 7.- Juan Pablo Duarte es considerado un? </string>
+    <string name="question8"> 8.- El Presidente anexionista fué? </string>
+    <string name="question9"> 9.- El primer presidente Dominicano fué? </string>
+    <string name="question10"> 10.- Juan Pablo Duarte murió en? </string>
+
+    <!-- fechas -->
+    <string name="date1916">1916</string>
+
+
+</resources>
