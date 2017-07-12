@@ -4,15 +4,38 @@
     <string name="question2"> 2.- Quien escribio la letra del himno nacional Dominicano? </string>
     <string name="question3"> 3.- Quien compuso la música del himno nacional Dominicano? </string>
     <string name="question4"> 4.- Quien Confeccionó la bandera Dominicana? </string>
-    <string name="question5"> 5.- Quien Confeccionó el Escudo Dominicano? </string>
-    <string name="question6"> 6.- cuales son los colores de la Bandera Dominicana? </string>
+    <string name="question5"> 5.- Seleccione los padres de la patria. </string>
+    <string name="question6"> 6.- Donde murió Juan Pablo Duarte? </string>
     <string name="question7"> 7.- Juan Pablo Duarte es considerado un? </string>
     <string name="question8"> 8.- El Presidente anexionista fué? </string>
     <string name="question9"> 9.- El primer presidente Dominicano fué? </string>
-    <string name="question10"> 10.- Juan Pablo Duarte murió en? </string>
+    <string name="question10">10.- Quien Confeccionó el Escudo Dominicano? </string>
 
     <!-- fechas -->
     <string name="date1916">1916</string>
+    <string name="republica_dominicana">República Dominicana</string>
+    <string name="_1994">1994</string>
+    <string name="_1844">1844</string>
+    <string name="_1944">1944</string>
+    <string name="ramon_caceres">Ramón Cáceres</string>
+    <string name="manuela_diez">Manuela Diez</string>
+    <string name="emilio_proud_homme">Emilio Proud\'homme</string>
+    <string name="jos_reyes">José Reyes</string>
+    <string name="juan_luis_guerra">Juan Luís Guerra</string>
+    <string name="ram_n_c_ceres">Ramón Cáceres</string>
+    <string name="jose_reyes">José Reyes</string>
+    <string name="varios_nombres">varios nombres</string>
+    <string name="juan_pablo_duarte">Juan Pablo Duarte</string>
+    <string name="pedro_santana">Pedro Santana</string>
+    <string name="francisco_del_rosario_sanchez">Francisco del Rosario Sanchez</string>
+    <string name="joaquin_balaguer">Joaquin Balaguer</string>
+    <string name="jose_francisco_pena_gomez">Jose Francisco Peña Gómez</string>
+    <string name="ramon_matias_mella">Ramon Matias Mella</string>
+    <string name="venezuela">Venezuela</string>
+    <string name="haiti">Haiti</string>
+    <string name="cuba">Cuba</string>
+    <string name="espana">España</string>
+    <string name="btn_text_enviar">Enviar</string>
 
 
 </resources>
